@@ -24,7 +24,8 @@ It can be setup like:
 ```bash
 conda env create -f environment.yml
 conda activate hls4ml-tutorial
-source /path/to/your/installtion/Xilinx/Vitis_HLS/202X.X/settings64.(c)sh
+source /home/ubuntu/xilinx_setup/2025.2/Vitis/settings64.sh
+jupyter notebook
 ```
 
 Note that part 7 of the tutorial makes use of the `VivadoAccelator` backend of hls4ml for which no Vitis equivalent is available yet. For this part of the tutorial it is therefore necesary to install and source Vivado HLS version 2019.2 or 2020.1, which can be obtained [here](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html).
